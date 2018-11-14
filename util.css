@@ -1,0 +1,41 @@
+    .ui-button {
+	  cursor          : pointer;
+	  background-color: #C4C7CE;
+	  font-family     : Helvetica, Arial, sans-serif;
+	  font-weight     : 300;
+	  outline         : none;
+      border-radius   : 5px;
+      box-shadow      : 0px 5px #270606;
+	  padding         : 6px 35px;
+	  font-size       : 22px;
+    }
+	
+	ui-button:disabled, [disabled] {
+      pointer-events    : none;
+      cursor            : not-allowed;
+ 	  background-color  : #C4C7CE;
+	  color             : #9E9E9E;
+	  outline           : none;
+      box-shadow        : 0px 5px #270606;
+    }
+	
+	.btn-small {
+	  padding         : 5px 32px;
+	  font-size       : 20px;
+	  
+    }
+	
+	.btn-mobile {
+	  padding         : 6px 35px;
+	  font-size       : 22px;
+    }
+	
+	.ui-button:active {
+      transform : translateY(4px);
+      box-shadow: 0px 1px #3C93D5;
+    }
+	
+	.ui-button:hover {
+	  color           : #924343;
+	  background-color: #ECF0F1    
+    }

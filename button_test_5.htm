@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+   <!--link rel="stylesheet" href="https://raw.githubusercontent.com/Markbulg/files/master/util.css"-->
+   
+   <link rel="stylesheet" href="util.css">
+   
+  <!--link rel="import" href="util.css"-->
+  <!-- Resources on other origins must be CORS-enabled. -->
+  <!--link rel="import" href="http://example.com/elements.html"-->
+  <!--@import url("https://raw.githubusercontent.com/Markbulg/files/master/util.css"); -->
+  <style>
+    
+  </style>
+
+</head>
+
+<body>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+  </head>
+	
+ 	
+	<div>
+		<button class="ui-button" id="start">Start</button>
+		<button class="ui-button" id="stop">Stop</button>
+	</div>
+    
+	<div class="title">
+	  <p id="p1">Click on this paragraph.</p>
+	</div>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+      var ttl = document.getElementById("titleId")
+	  
+      var timerInitiated = false;
+	  var timerStart = 20;
+	  
+	 
+     $("#start").click(function() {
+       $(this).prop('disabled',true);     
+       $("#stop").prop('disabled',false);  	   
+     });	 
+	 
+	 $("#stop").click(function() {
+        $(this).prop('disabled',true);     
+       $("#start").prop('disabled',false);  	        
+     });	
+	 
+    </script
+	
+  <!-- Lets load up prefixfree first -->
+  <script src="http://4minmtg.com/js/prefixfree.js" type="text/javascript"></script>
+  <!-- You can download it from https://leaverou.github.com/prefixfree/ -->
+  
+</body>
+</html>
+
